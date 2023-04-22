@@ -164,6 +164,8 @@ q = [0]
 North[0] -= 1
 West[0] -= 1
 flag = 0
+
+
 dfs(0, 0)
 if flag == 0:
     print(-1)
